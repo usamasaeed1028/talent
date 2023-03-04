@@ -6,10 +6,17 @@
   margin: 0;
 }
 
+
 html,
 body {
   max-width: 100vw;
   overflow-x: hidden;
+}
+.img-container span,
+.img-container img {
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: cover;
 }
 .login-linear-gradient {
   background: linear-gradient(180deg, #33193E 0%, #180C1D 100%);
